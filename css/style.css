@@ -5,14 +5,6 @@
     padding-left: 0;
 }
 
-
-
-.navbar {
-    border-radius: 0;
-    font-size: 18px;
-    margin-bottom: 0;
-}
-
 a {
     color: #fff;
 }
@@ -23,22 +15,40 @@ h1 {
 
 /*MD*/
 @media (min-width: 768px) {
-    .jumbotron .container {
-        max-width: 900px;
-    }
 
     .navbar-collapse {
         margin-left: 30px;
     }
 
-    .container{
-        margin-left:45px;
+    .jumbotron .container-fluid{
         margin-top: 45px;
     }
+
+    .container-fluid{
+        margin-left:45px;
+        margin-right:45px;
+        /*margin-top: 45px;*/
+    }
+
+    /*#about-div {*/
+        /*margin-left: 30px;*/
+        /*padding: 15px;*/
+    /*}*/
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
 }
 
 
 /*NAV-BAR*/
+
+.navbar {
+    border-radius: 0;
+    font-size: 18px;
+    margin-bottom: 0;
+}
 
 .navbar-default {
     background-color: #00de94;
