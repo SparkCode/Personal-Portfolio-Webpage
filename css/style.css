@@ -5,20 +5,7 @@
     padding-left: 0;
 }
 
-.container{
-    margin-left:45px;
-    margin-top: 45px;
-}
 
-.navbar-collapse {
-    margin-left: 30px;
-}
-
-    /*@media (min-width: 800px) {*/
-    /*.jumbotron .container {*/
-        /*max-width: 800px;*/
-    /*}*/
-/*}*/
 
 .navbar {
     border-radius: 0;
@@ -31,6 +18,22 @@ a {
 
 h1 {
     font-size: 40px;
+}
+
+/*MD*/
+@media (min-width: 768px) {
+    .jumbotron .container {
+        max-width: 900px;
+    }
+
+    .navbar-collapse {
+        margin-left: 30px;
+    }
+
+    .container{
+        margin-left:45px;
+        margin-top: 45px;
+    }
 }
 
 
