@@ -5,8 +5,12 @@
     padding-left: 0;
 }
 
-a {
+.jumbotron a {
     color: #fff;
+}
+
+a {
+    color: #00de94;
 }
 
 h1 {
@@ -200,4 +204,8 @@ fieldset[disabled] .btn-custom.active {
 .btn-custom .badge {
     color: #00de94;
     background-color: #00de94;
+}
+
+.section {
+    margin-bottom: 45px;
 }
