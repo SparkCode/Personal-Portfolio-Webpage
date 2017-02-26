@@ -18,7 +18,8 @@
     </div>
 </div>
 
-<nav class="navbar navbar-default">
+
+<nav class="navbar navbar-default" id="custom-navbar">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#custom-bootstrap-menu" aria-expanded="false">
@@ -39,5 +40,12 @@
     </div>
 </nav>
 
+<script>
+    $(document).ready(function () {
+        if ($(this).width() < 768) {
+            $('#custom-navbar').prependTo($("body"));
+        }
+    })
+</script>
 
 </body>
