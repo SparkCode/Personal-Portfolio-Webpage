@@ -10,16 +10,16 @@ h1 .jumbotron {
 }
 
 a {
-    color: #00de94;
+    color: #00cb84;
 }
 
 a:hover {
-    color: #00de94;
+    color: #00cb84;
 
 }
 
 a:active {
-    color: #00de94;
+    color: #00cb84;
 }
 
 
@@ -64,6 +64,10 @@ footer {
     padding-top: 15px;
     padding-bottom: 5px;
     font-size: 18px;
+}
+
+i {
+    color: black;
 }
 
 footer a {
