@@ -201,6 +201,13 @@ footer a:active {
     border-radius: 0;
 }
 
+.project{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
 /*BUTTON*/
 
 .btn-custom {
