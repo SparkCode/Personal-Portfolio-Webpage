@@ -5,16 +5,12 @@
     padding-left: 0;
 }
 
-.jumbotron a {
-    color: #fff;
+h1 .jumbotron {
+    font-size: 40px;
 }
 
 a {
     color: #00de94;
-}
-
-h1 {
-    font-size: 40px;
 }
 
 /*MD*/
@@ -31,26 +27,41 @@ h1 {
     .container-fluid{
         margin-left:45px;
         margin-right:45px;
-        /*margin-top: 45px;*/
     }
-
-    /*#about-div {*/
-        /*margin-left: 30px;*/
-        /*padding: 15px;*/
-    /*}*/
 }
 
 body {
     font-size: 20px;
+    background-color: #f2f2f2;
 }
 
 p {
     text-align: justify;
 }
 
-footer p {
-    font-size: 14px;
-    text-align: center;
+
+.section {
+    margin-bottom: 45px;
+}
+
+#about-section {
+    margin-top: 45px;
+}
+
+footer {
+    background-color: #00cb84;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+footer a {
+    color: #fff;
+}
+
+#links a{
+    text-decoration: underline;
 }
 
 
@@ -61,6 +72,7 @@ footer p {
     font-size: 18px;
     margin-bottom: 0;
 }
+
 
 .navbar-default {
     background-color: #00de94;
@@ -81,7 +93,7 @@ footer p {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #ffffff;
+    color: #f2f2f2;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu {
     background-color: #00de94;
@@ -171,7 +183,7 @@ footer p {
 .btn-custom:active,
 .btn-custom.active,
 .open .dropdown-toggle.btn-custom {
-    color: #FFFFFF;
+    color: #f2f2f2;
     background-color: #00de94;
     border-color: #00de94;
 }
@@ -204,8 +216,4 @@ fieldset[disabled] .btn-custom.active {
 .btn-custom .badge {
     color: #00de94;
     background-color: #00de94;
-}
-
-.section {
-    margin-bottom: 45px;
 }
