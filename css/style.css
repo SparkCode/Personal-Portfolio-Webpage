@@ -189,6 +189,17 @@ footer a:active {
     }
 }
 
+.caption
+{
+    font-size: 16px;
+}
+
+.thumbnail
+{
+    border-radius: 0;
+}
+
+
 /*BUTTON*/
 
 .btn-custom {
@@ -201,6 +212,7 @@ footer a:active {
     color: #FFFFFF;
     background-color: #00de94;
     border-color: #00de94;
+    font-size: 16px;
 }
 
 .btn-custom:hover,
