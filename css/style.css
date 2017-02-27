@@ -13,6 +13,16 @@ a {
     color: #00de94;
 }
 
+a:hover {
+    color: #00de94;
+
+}
+
+a:active {
+    color: #00de94;
+}
+
+
 /*MD*/
 @media (min-width: 768px) {
 
@@ -60,9 +70,20 @@ footer a {
     color: #fff;
 }
 
+footer a:hover {
+    color: #f2f2f2;
+
+}
+
+footer a:active {
+    color: #f2f2f2;
+}
+
+
 #links a{
     text-decoration: underline;
 }
+
 
 
 /*NAV-BAR*/
